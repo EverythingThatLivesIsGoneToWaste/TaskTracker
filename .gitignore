@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+
+bin/
+obj/
+node_modules/
+
+*.db
+*.sqlite
+*.bak
+
+docker-compose.override.yml
+
+*.log
+.vs/
+
+appsettings.Development.json
