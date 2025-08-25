@@ -1,0 +1,20 @@
+.vscode/
+.idea/
+
+bin/
+obj/
+node_modules/
+
+*.db
+*.sqlite
+*.bak
+
+*.log
+.vs/
+
+# Secrets
+.env
+appsettings.Production.json
+appsettings.Development.json
+*/appsettings.Production.json
+*/appsettings.Development.json

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TaskTracker UI</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <h1>TaskTracker</h1>
+    <div id="taskForm">
+            <input id="taskTitle" placeholder="Название задачи" required>
+            <button id="mainBtn" onclick="createTask()">Добавить</button>
+    </div>
+    <div id="taskForm">
+        <input id="taskDescription" placeholder="Описание задачи" required>
+    </div> 
+    
+    <ul id="tasksList"></ul>
+
+    <script src="/js/index.js"></script>
+    <div id="taskTooltip" class="tooltip"></div>
+</body>
+</html>
